@@ -21,7 +21,7 @@ function carousel() {
 
 //handles the skills slider 
 var waypoint = new Waypoint({
-  element: document.getElementById('two'),
+  element: document.getElementById('check'),
   handler: function() {
     $('.skillbar').each(function(){
       $(this).find('.skillbar-bar').animate({
