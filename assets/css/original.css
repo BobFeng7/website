@@ -1024,12 +1024,17 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #f2f2f2;
-			color: #a6a6a6;
+			background-color: #000;
+			color: #bfbfbf;
+			background-image: url(../../assets/images/Wallpapers/Reflection.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+			background-position: center;
+			position: relative;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
-				color: #000;
+				color: #ffffff;
 			}
 
 			.wrapper.style2 a {
@@ -1037,28 +1042,28 @@
 			}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
-				color: #000;
+				color: #ffffff;
 			}
 
 			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
-				color: #000;
+				color: #ffffff;
 			}
 
 			.wrapper.style2 blockquote {
-				border-left-color: rgba(0, 0, 0, 0.15);
+				border-left-color: rgba(255, 255, 255, 0.25);
 			}
 
 			.wrapper.style2 code {
-				background: rgba(0, 0, 0, 0.075);
-				border-color: rgba(0, 0, 0, 0.15);
+				background: rgba(255, 255, 255, 0.075);
+				border-color: rgba(255, 255, 255, 0.25);
 			}
 
 			.wrapper.style2 hr {
-				border-bottom-color: rgba(0, 0, 0, 0.15);
+				border-bottom-color: rgba(255, 255, 255, 0.25);
 			}
 
 			.wrapper.style2 .box {
-				border-color: rgba(0, 0, 0, 0.15);
+				border-color: rgba(255, 255, 255, 0.25);
 			}
 
 			.wrapper.style2 input[type="submit"],
@@ -1066,9 +1071,25 @@
 			.wrapper.style2 input[type="button"],
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
-				background-color: #000;
-				color: #f2f2f2 !important;
+				background-color: #f2f2f2;
+				color: #000 !important;
 			}
+
+				.wrapper.style2 input[type="submit"]:hover,
+				.wrapper.style2 input[type="reset"]:hover,
+				.wrapper.style2 input[type="button"]:hover,
+				.wrapper.style2 button:hover,
+				.wrapper.style2 .button:hover {
+					background-color: white;
+				}
+
+				.wrapper.style2 input[type="submit"]:active,
+				.wrapper.style2 input[type="reset"]:active,
+				.wrapper.style2 input[type="button"]:active,
+				.wrapper.style2 button:active,
+				.wrapper.style2 .button:active {
+					background-color: #e5e5e5;
+				}
 
 				.wrapper.style2 input[type="submit"].alt,
 				.wrapper.style2 input[type="reset"].alt,
@@ -1076,8 +1097,8 @@
 				.wrapper.style2 button.alt,
 				.wrapper.style2 .button.alt {
 					background-color: transparent;
-					box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);
-					color: #000 !important;
+					box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+					color: #ffffff !important;
 				}
 
 					.wrapper.style2 input[type="submit"].alt:hover,
@@ -1086,7 +1107,7 @@
 					.wrapper.style2 button.alt:hover,
 					.wrapper.style2 .button.alt:hover {
 						box-shadow: none;
-						background-color: rgba(0, 0, 0, 0.075);
+						background-color: rgba(255, 255, 255, 0.075);
 					}
 
 					.wrapper.style2 input[type="submit"].alt:active,
@@ -1095,7 +1116,7 @@
 					.wrapper.style2 button.alt:active,
 					.wrapper.style2 .button.alt:active {
 						box-shadow: none;
-						background-color: rgba(0, 0, 0, 0.2);
+						background-color: rgba(255, 255, 255, 0.2);
 					}
 
 					.wrapper.style2 input[type="submit"].alt.icon:before,
@@ -1132,7 +1153,7 @@
 					}
 
 			.wrapper.style2 label {
-				color: #000;
+				color: #ffffff;
 			}
 
 			.wrapper.style2 input[type="text"],
@@ -1140,8 +1161,8 @@
 			.wrapper.style2 input[type="email"],
 			.wrapper.style2 select,
 			.wrapper.style2 textarea {
-				background: rgba(0, 0, 0, 0.075);
-				border-color: rgba(0, 0, 0, 0.15);
+				background: rgba(255, 255, 255, 0.075);
+				border-color: rgba(255, 255, 255, 0.25);
 			}
 
 				.wrapper.style2 input[type="text"]:focus,
@@ -1154,18 +1175,18 @@
 				}
 
 			.wrapper.style2 .select-wrapper:before {
-				color: rgba(0, 0, 0, 0.15);
+				color: rgba(255, 255, 255, 0.25);
 			}
 
 			.wrapper.style2 input[type="checkbox"] + label,
 			.wrapper.style2 input[type="radio"] + label {
-				color: #a6a6a6;
+				color: #bfbfbf;
 			}
 
 				.wrapper.style2 input[type="checkbox"] + label:before,
 				.wrapper.style2 input[type="radio"] + label:before {
-					background: rgba(0, 0, 0, 0.075);
-					border-color: rgba(0, 0, 0, 0.15);
+					background: rgba(255, 255, 255, 0.075);
+					border-color: rgba(255, 255, 255, 0.25);
 				}
 
 			.wrapper.style2 input[type="checkbox"]:checked + label:before,
@@ -1202,7 +1223,7 @@
 			}
 
 			.wrapper.style2 ul.alt li {
-				border-top-color: rgba(0, 0, 0, 0.15);
+				border-top-color: rgba(255, 255, 255, 0.25);
 			}
 
 			.wrapper.style2 header p {
@@ -1210,27 +1231,53 @@
 			}
 
 			.wrapper.style2 table tbody tr {
-				border-color: rgba(0, 0, 0, 0.15);
+				border-color: rgba(255, 255, 255, 0.25);
 			}
 
 				.wrapper.style2 table tbody tr:nth-child(2n + 1) {
-					background-color: rgba(0, 0, 0, 0.075);
+					background-color: rgba(255, 255, 255, 0.075);
 				}
 
 			.wrapper.style2 table th {
-				color: #000;
+				color: #ffffff;
 			}
 
 			.wrapper.style2 table thead {
-				border-bottom-color: rgba(0, 0, 0, 0.15);
+				border-bottom-color: rgba(255, 255, 255, 0.25);
 			}
 
 			.wrapper.style2 table tfoot {
-				border-top-color: rgba(0, 0, 0, 0.15);
+				border-top-color: rgba(255, 255, 255, 0.25);
 			}
 
 			.wrapper.style2 table.alt tbody tr td {
-				border-color: rgba(0, 0, 0, 0.15);
+				border-color: rgba(255, 255, 255, 0.25);
+			}
+
+			.wrapper.style2 .inner {
+				position: relative;
+				z-index: 2;
+			}
+
+			.wrapper.style2:before {
+				-moz-transition: opacity 3s ease;
+				-webkit-transition: opacity 3s ease;
+				-ms-transition: opacity 3s ease;
+				transition: opacity 3s ease;
+				-moz-transition-delay: 1.25s;
+				-webkit-transition-delay: 1.25s;
+				-ms-transition-delay: 1.25s;
+				transition-delay: 1.25s;
+				content: '';
+				display: block;
+				background-color: rgba(0, 0, 0, 0.95);
+				height: 100%;
+				left: 0;
+				opacity: 0.75;
+				position: absolute;
+				top: 0;
+				width: 100%;
+				z-index: 1;
 			}
 
 		.wrapper.style3 {
