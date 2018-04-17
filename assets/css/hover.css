@@ -37,9 +37,8 @@
   transition-property: transform;
 }
 .hvr-super-grow:hover, .hvr-super-grow:focus, .hvr-super-grow:active {
-  -webkit-transform: scale(2.5);
-  transform: scale(2.5);
-  font-weight:bold;
+  -webkit-transform: scale(2);
+  transform: scale(2);
 }
 
 /* Shrink */
