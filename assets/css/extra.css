@@ -26,6 +26,22 @@
 	margin-bottom:5%;
 }
 
+/*leave a message thing at bottom*/
+.message {
+	text-align:center; 
+	position:relative; 
+	width:50%; 
+	left:25%; 
+	color:black; 
+	margin-top:20px
+}
+
+@media screen and (max-width: 736px) {
+	.message {
+		width:auto; 
+		left:auto; 
+	}
+}
 
 
 

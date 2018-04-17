@@ -1111,7 +1111,7 @@
 				}
 
 				#banner p {
-					font-size: 1.25em;
+					/*font-size: 1.25em;*/
 				}
 
 				#banner br {
@@ -1127,7 +1127,7 @@
 		@media screen and (max-width: 480px) {
 
 			#banner p {
-				font-size: 1em;
+				/*font-size: 1em;*/
 			}
 
 		}
