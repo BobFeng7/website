@@ -178,14 +178,14 @@
 		}
 
 		#banner:before {
-			-moz-transition: opacity 4s ease;
+			/*-moz-transition: opacity 4s ease;
 			-webkit-transition: opacity 4s ease;
 			-ms-transition: opacity 4s ease;
 			transition: opacity 4s ease;
 			-moz-transition-delay: 1.25s;
 			-webkit-transition-delay: 1.25s;
 			-ms-transition-delay: 1.25s;
-			transition-delay: 1.25s;
+			transition-delay: 1.25s;*/
 			content: '';
 			display: block;
 			background-color: rgba(0, 0, 0, 0.85);
