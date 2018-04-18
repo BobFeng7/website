@@ -105,20 +105,6 @@
 
 						});
 
-				// More button.
-					$banner.find('.more')
-						.addClass('scrolly');
-
-			}
-
-		// Scrolly.
-			if ( $( ".scrolly" ).length ) {
-
-				var $height = $('#header').height() * 0.95;
-
-				$('.scrolly').scrolly({
-					offset: $height
-				});
 			}
 
 		// Menu.
@@ -126,7 +112,7 @@
 				.append('<a href="#menu" class="close"></a>')
 				.appendTo($body)
 				.panel({
-					delay: 500,
+					delay: 300,
 					hideOnClick: true,
 					hideOnSwipe: true,
 					resetScroll: true,

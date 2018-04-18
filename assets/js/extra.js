@@ -17,8 +17,7 @@ $( document ).ready(function() {
       });
     });
 
-  // scrolling effect for in page hrefs
-  // Select all links with hashes
+  // scrolling effect for in page hrefs select all links with hashes
     $('a[href*="#"]')
       // Remove links that don't actually link to anything
       .not('[href="#"]')
