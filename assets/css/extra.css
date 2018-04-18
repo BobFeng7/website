@@ -53,11 +53,23 @@
 	outline: none;
 }
 
-.mobileaboutme {
-	display:none;
+.Bobimg {
+	width:435px;
 }
 
+.projectimage {
+	width:350px;
+	height:240px;
+}
+
+
 /*screen size*/
+@media screen and (max-width: 400px) {
+	.projectimage {
+		width:100%;
+	}
+}
+
 @media screen and (max-width: 736px) {
 	.message {
 		width:auto; 
@@ -66,9 +78,15 @@
 }
 
 @media screen and (max-width: 1200px) {
+	/*mobile space out the image and the text for the aboutme section more*/
 	.Bob {
 		margin-bottom:35px;
 	}
+
+	/*adjust image size for mobile*/
+	.Bobimg {
+		width: 100%;
+	}	
 }
 
 
@@ -245,9 +263,9 @@
 			opacity: 0;
 		}
 
-		body.is-loading #banner:before {
+		/*body.is-loading #banner:before {
 			opacity: 1;
-		}
+		}*/
 
 		@media screen and (max-width: 1280px) {
 
