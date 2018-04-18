@@ -1,3 +1,7 @@
+.hidden {
+	display:none;
+}
+
 
 /*give a box shadow to whatever element*/
 .shadowx {
@@ -804,7 +808,7 @@
 		.wrapper.style4 {
 			background-color: #000;
 			color: #bfbfbf;
-			background-image: url(../../assets/images/Wallpapers/YourName.jpg);
+			background-image: url(../../assets/images/Wallpapers/Through.jpg);
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
