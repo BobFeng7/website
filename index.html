@@ -88,11 +88,21 @@
 				</div><!-- /row -->
 				
 				<div class="row mt centered" style="font-size:18px;">
-					<div class="col-lg-8 col-lg-offset-2">
-						<p>Hi! I'm a junior studying computer science at the Univeristy of Berkeley, California. I've tackled topics throughout the full stack, from operating systems up to web development and enjoyed them all (maybe except databases haha). Right now, my passion is in security, with all its SQL injections and buffer overflow exploits.
-						</p>
-						<p>Aside from coding, I love spending my time playing the guitar, going on hikes, and skiing. The thing I enjoy most about Berkeley and college in general are the group discussions and projects. I'm very much a people person, and I'm very adept at working with others, whether it is as a team manager or in a more supportive role.</p>
-					</div><! --/col-lg-8 -->
+					<div>
+						<div class="col-lg-1 col-lg-offset-1 Bob">
+							<div class="hvr-grow-shadow">
+								<img width="320" src="assets/images/Bob.png" alt="" />
+							</div>
+						</div>
+						<div class="col-lg-6 col-lg-offset-3">
+							<p>Hi! I'm a junior studying computer science at the Univeristy of Berkeley, California. I've tackled topics throughout the full stack, from operating systems up to web development and enjoyed them all (maybe except databases haha). Right now, my passion is in security, with all its SQL injections and buffer overflow exploits.
+							</p>
+							<p>Aside from coding, I love spending my time playing the guitar, going on hikes, and skiing. The thing I enjoy most about Berkeley and college in general are the group discussions and projects. I'm very much a people person, and I'm very adept at working with others, whether it is as a team manager or in a more supportive role.</p>
+						</div>
+						
+					</div>
+					
+
 				</div><!-- /row -->
 			</div><!-- /container -->
 		</div><!-- /black -->
@@ -116,7 +126,6 @@
 
 	<! ========== Projects ===========================================>    
 	<div id="projects" class="container">	
-
 		<div class="row mt centered">
 			<div class="col-lg-4 col-lg-offset-4">
 				<h3>Projects</h3>
@@ -460,10 +469,11 @@
 				</form>
 			</div>
 		</div>
+	</div>
 
-	</div><!-- /container -->
 
-	<div id="funny" class="container style2" style="min-height:10%;padding-top:100px;">
+	<! ========== FOOTER ===========================================>  
+	<div id="footer" class="container style2" style="min-height:10%;padding-top:100px;">
 		<div class="row mt centered">
 			<div class="col-lg-4 col-lg-offset-4">
 				<a style="text-decoration:none;" href="assets/images/catastrophic.png"><h3>Don't Click</h3></a>
@@ -507,61 +517,6 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/extra.js"></script>
-
-
-  	<script>
-		$(window).scroll(function() {
-			$('.si').each(function(){
-			var imagePos = $(this).offset().top;
-	
-			var topOfWindow = $(window).scrollTop();
-				if (imagePos < topOfWindow+400) {
-					$(this).addClass("slideUp");
-				}
-			});
-		});
-	</script>    
-	<script>
-		// Select all links with hashes
-		$('a[href*="#"]')
-		  // Remove links that don't actually link to anything
-		  .not('[href="#"]')
-		  .not('[href="#0"]')
-		  .click(function(event) {
-		    // On-page links
-		    if (
-		      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-		      && 
-		      location.hostname == this.hostname
-		    ) {
-		      // Figure out element to scroll to
-		      var target = $(this.hash);
-		      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-		      // Does a scroll target exist?
-		      if (target.length) {
-		        // Only prevent default if animation is actually gonna happen
-		        event.preventDefault();
-		        $('html, body').animate({
-		          scrollTop: target.offset().top
-		        }, 1000, function() {
-		          // Callback after animation
-		          // Must change focus!
-		          var $target = $(target);
-		          $target.focus();
-		          if ($target.is(":focus")) { // Checking if the target was focused
-		            return false;
-		          } else {
-		            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-		            $target.focus(); // Set focus again
-		          };
-		        });
-		      }
-		    }
-		  });
-		</script>
-
-
-
   
   </body>
 </html>

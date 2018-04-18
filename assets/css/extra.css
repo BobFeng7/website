@@ -40,6 +40,16 @@
 	margin-top:20px
 }
 
+/*weird blue lines*/
+.container {
+	outline: none;
+}
+
+.mobileaboutme {
+	display:none;
+}
+
+/*screen size*/
 @media screen and (max-width: 736px) {
 	.message {
 		width:auto; 
@@ -47,8 +57,10 @@
 	}
 }
 
-#container {
-	outline: none;
+@media screen and (max-width: 1200px) {
+	.Bob {
+		margin-bottom:35px;
+	}
 }
 
 
