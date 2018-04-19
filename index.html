@@ -62,7 +62,9 @@
 				<p>3rd Year</p>
 				<!--<a href="http://www.berkeley.edu/" title="Berkeley Homepage" target="_blank">University of California, Berkeley</a>-->
 				<p>University of California, Berkeley</p>
-				<div class="hvr-super-grow centered"><p class="mainquote">"We are the universe's way of self-introspection."</p></div>
+				<!-- <div class="hvr-super-grow centered"><p class="mainquote">"Time is a story in reverse"</p></div> -->
+				<div class="hvr-super-grow centered"><p id="mood" class="mainquote">'We are the universe's way of self-introspection.'</p></div>
+					                         
 			</div>
 			<video id="myVideo" autoplay loop>
 				<!-- <source src="assets/images/Nebula.ogv" type="video/ogv">
@@ -336,17 +338,76 @@
 	<div id="motto">
 		<div id="white">
 			<div class="container">
-				<div class="row mt centered">
+				<!-- <div class="row mt centered">
 					<div class="col-lg-4 col-lg-offset-4">
 						<h3>My Work Motto</h3>
 						<hr>
-					</div><!-- /col-lg-4 -->
-				</div><!-- /row -->
+					</div>
+				</div> -->
 				
-				<div class="row mt centered">
-					<div class="col-lg-8 col-lg-offset-2">
-						<p style="font-size:16px;">I am a firm believer that success is a byproduct of a genuine pursuit of something one is passionate about. My goal is to understand others, work together, and strive to make something more than the sum of its parts, but also to <a style="text-decoration:none;color:rgb(25, 200, 180, 1.0);">enjoy</a> yourselves along the way!</p>
-					</div><! --/col-lg-8 -->
+				<div class="row mt centered" style="outline:none;">
+					<div class="col-lg-8 col-lg-offset-2 " >
+						<!-- p style="font-size:16px;">I am a firm believer that success is a byproduct of a genuine pursuit of something one is passionate about. My goal is to understand others, work together, and strive to make something more than the sum of its parts, but also to <a style="text-decoration:none;color:rgb(25, 200, 180, 1.0);">enjoy</a> yourselves along the way!</p> -->
+						<div class="carousel slide" data-ride="carousel" id="quote-carousel" style="outline:none;">
+					        <!-- Bottom Carousel Indicators -->
+					        <ol class="carousel-indicators">
+					          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+					          <li data-target="#quote-carousel" data-slide-to="1"></li>
+					          <li data-target="#quote-carousel" data-slide-to="2"></li>
+					        </ol>
+					        
+					        <!-- Carousel Slides / Quotes -->
+					        <div class="carousel-inner">
+					        
+					          <!-- Quote 1 -->
+					          <div class="item active">
+					            <blockquote>
+					              <div class="row">
+					                <div class="col-sm-3 text-center">
+					                  <img class="img-circle" src="assets/images/Wallpapers/SpiritedAway.jpg" style="width: 100px;height:100px;">
+					                </div>
+					                <div class="col-sm-9">
+					                  <p>Time is a story in reverse</p>
+					                  <small>Someone famous</small>
+					                </div>
+					              </div>
+					            </blockquote>
+					          </div>
+					          <!-- Quote 2 -->
+					          <div class="item">
+					            <blockquote>
+					              <div class="row">
+					                <div class="col-sm-3 text-center">
+					                  <img class="img-circle" src="assets/images/Wallpapers/YouAreFree.jpg" style="width: 100px;height:100px;">
+					                </div>
+					                <div class="col-sm-9">
+					                  <p>You're not stuck in traffic, you <b>are</b> the traffic</p>
+					                  <small>Someone famous</small>
+					                </div>
+					              </div>
+					            </blockquote>
+					          </div>
+					          <!-- Quote 3 -->
+					          <div class="item">
+					            <blockquote>
+					              <div class="row">
+					                <div class="col-sm-3 text-center">
+					                  <img class="img-circle" src="assets/images/Wallpapers/Sanctuary.jpg" style="width: 100px;height:100px;">
+					                </div>
+					                <div class="col-sm-9">
+					                  <p>The universe is grand, but life is grander</p>
+					                  <small>Someone famous</small>
+					                </div>
+					              </div>
+					            </blockquote>
+					          </div>
+					        </div>
+					        
+					        <!-- Carousel Buttons Next/Prev -->
+					        <!-- <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+					        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a> -->
+					      </div>                    
+					</div>
 				</div><!-- /row -->
 			</div><!-- /container -->
 		</div><!-- /black -->
