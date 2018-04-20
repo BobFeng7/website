@@ -12,11 +12,15 @@ $( document ).ready(function() {
   var mood = $('#mood');
   var index = 0;
   
-  setInterval(change, 3000);
+  setInterval(change, 4000);
   function change() {
     // mood.fadeToggle('slow');
     // mood.slideUp(5000);
-    mood.html(quotes[index]);
+    mood.fadeOut(2000, function(){
+      mood.text(quotes[index]);
+      mood.fadeIn(2000);
+    });
+    // mood.html(quotes[index]);
     // mood.slideDown(1000);
     index = (index + 1) % 4;
   }
