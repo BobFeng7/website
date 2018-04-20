@@ -12,13 +12,13 @@ $( document ).ready(function() {
   var mood = $('#mood');
   var index = 0;
   
-  setInterval(change, 4000);
-  function change() {
+  setInterval(changequote, 5000);
+  function changequote() {
     // mood.fadeToggle('slow');
     // mood.slideUp(5000);
-    mood.fadeOut(2000, function(){
+    mood.fadeOut(1750, function(){
       mood.text(quotes[index]);
-      mood.fadeIn(2000);
+      mood.fadeIn(1750);
     });
     // mood.html(quotes[index]);
     // mood.slideDown(1000);
