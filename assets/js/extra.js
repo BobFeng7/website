@@ -5,6 +5,18 @@
 
 $( document ).ready(function() {
 
+
+
+  $(".codinglanguages").mouseover(function() {
+    $(".hiddenproficiency").slideDown("slow");
+  });
+
+  $(".codinglanguages").mouseout(function() {
+    $(".hiddenproficiency").slideUp("slow");
+  });
+
+
+
   var quotes = ["'Time is a story in reverse.'",
                 "'You aren't stuck in traffic, you are the traffic.'",
                 "'The universe is grand, but life is grander.'",

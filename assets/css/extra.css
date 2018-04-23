@@ -24,7 +24,15 @@
 
 /*edits the coding languages*/
 .codinglanguages {
+	line-height:50px;
+	font-size:15px;
+	word-spacing:60px;
+	color:white;
+}
+
+.hiddenproficiency {
 	word-spacing:42px;
+	display:none;
 	color:white;
 }
 
@@ -619,7 +627,7 @@
 		.wrapper.style2 {
 			background-color: #000;
 			color: #bfbfbf;
-			background-image: url(../../assets/images/Wallpapers/Reflection.jpg);
+			background-image: url(../../assets/images/Wallpapers/UnderTheOverpass.jpg);
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
