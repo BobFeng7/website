@@ -25,16 +25,11 @@
 /*edits the coding languages*/
 .codinglanguages {
 	line-height:50px;
-	font-size:15px;
-	word-spacing:60px;
+	font-size:16px;
+	/*word-spacing:60px;*/
 	color:white;
 }
 
-.hiddenproficiency {
-	word-spacing:42px;
-	display:none;
-	color:white;
-}
 
 /*Year, major, institution element*/
 .title {
