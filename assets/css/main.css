@@ -121,11 +121,14 @@ border-bottom-width: 0px;
 }
 
 /* Description Styling / Used in portfolio & Blog images footnotes */
+.desc {
+	margin-bottom:15px;
+}
 .desc p {
 	font-family: 'Ruda', sans-serif;
 	font-size: 16px;
 	font-weight: 700;
-	margin-top: 15px;
+	margin-top: 0px;
 }
 
 .desc p > i {
@@ -143,7 +146,7 @@ border-bottom-width: 0px;
     font-family: 'Ruda', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    margin-top: -15px;
+    margin-top: -20px;
 }
 
 .desc p.time {
@@ -201,8 +204,6 @@ p.capitalize:first-letter {
 }
 
 .btn-cta:hover,
-.btn-cta:focus,
-.btn-cta:active,
 .btn-cta.active,
 .open .dropdown-toggle.btn-cta {
   color: #2f2f2f;

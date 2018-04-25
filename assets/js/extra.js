@@ -24,16 +24,12 @@ $( document ).ready(function() {
   var mood = $('#mood');
   var index = 0;
   
-  setInterval(changequote, 5000);
+  setInterval(changequote, 4500);
   function changequote() {
-    // mood.fadeToggle('slow');
-    // mood.slideUp(5000);
-    mood.fadeOut(1750, function(){
+    mood.fadeOut(1500, function(){
       mood.text(quotes[index]);
-      mood.fadeIn(1750);
+      mood.fadeIn(1500);
     });
-    // mood.html(quotes[index]);
-    // mood.slideDown(1000);
     index = (index + 1) % 4;
   }
 

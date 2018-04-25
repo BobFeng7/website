@@ -10,7 +10,6 @@
 	display:none;
 }
 
-
 /*give a box shadow to whatever element*/
 .shadowx {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -26,10 +25,8 @@
 .codinglanguages {
 	line-height:50px;
 	font-size:16px;
-	/*word-spacing:60px;*/
 	color:white;
 }
-
 
 /*Year, major, institution element*/
 .title {
@@ -65,6 +62,12 @@
 	height:240px;
 }
 
+.sendmessage {
+	margin-bottom:10px; 
+	margin-top:15px;
+	border-color: grey;
+	color: grey;
+}
 
 /*screen size*/
 @media screen and (max-width: 400px) {
@@ -93,7 +96,7 @@
 }
 
 
-/* carousel */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ carousel */
 #quote-carousel 
 {
   padding: 0 10px 30px 10px;
@@ -159,12 +162,6 @@
     margin-right: 10px;
 }
 
-
-
-/**
-  MEDIA QUERIES
-*/
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     #quote-carousel 
@@ -185,14 +182,14 @@
     }
     #quote-carousel .carousel-indicators li {
         display: inline-block;
-        margin: 0px 5px;
-        width: 15px;
-        height: 15px;
+        margin: 0px 4px;
+        width: 10px;
+        height: 10px;
     }
     #quote-carousel .carousel-indicators li.active {
-        margin: 0px 5px;
-        width: 20px;
-        height: 20px;
+        margin: 0px 4px;
+        width: 15px;
+        height: 15px;
     }
 }
 
