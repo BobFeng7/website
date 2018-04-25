@@ -80,6 +80,7 @@
 @media screen and (max-width: 400px) {
 	.projectimage {
 		width:100%;
+
 	}
 }
 
@@ -100,6 +101,10 @@
 	.Bobimg {
 		width: 100%;
 	}	
+
+	.projectimage {
+		text-align:center;
+	}
 
 	hr {
 		width:50%;
