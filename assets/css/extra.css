@@ -28,6 +28,12 @@
 	color:white;
 	margin-bottom:15px;
 }
+	.language {
+		margin-left:10px;
+		margin-right:10px;
+		padding-right:0px;
+		padding-left:0px;
+	}
 
 /*Year, major, institution element*/
 .title {
@@ -94,6 +100,15 @@
 	.Bobimg {
 		width: 100%;
 	}	
+
+	hr {
+		width:50%;
+		display: block;
+	    /*margin-top: 0.5em;*/
+	    /*margin-bottom: 0.5em;*/
+	    margin-left: auto;
+	    margin-right: auto;
+	}
 }
 
 
