@@ -26,6 +26,7 @@
 	line-height:50px;
 	font-size:16px;
 	color:white;
+	margin-bottom:15px;
 }
 
 /*Year, major, institution element*/
@@ -436,10 +437,6 @@
 				border-color: rgba(255, 255, 255, 0.25);
 			}
 
-			.wrapper.style1 hr {
-				border-bottom-color: rgba(255, 255, 255, 0.25);
-			}
-
 			.wrapper.style1 .box {
 				border-color: rgba(255, 255, 255, 0.25);
 			}
@@ -649,10 +646,6 @@
 			.wrapper.style2 code {
 				background: rgba(255, 255, 255, 0.075);
 				border-color: rgba(255, 255, 255, 0.25);
-			}
-
-			.wrapper.style2 hr {
-				border-bottom-color: rgba(255, 255, 255, 0.25);
 			}
 
 			.wrapper.style2 .box {
@@ -915,10 +908,6 @@
 				border-color: rgba(255, 255, 255, 0.25);
 			}
 
-			.wrapper.style3 hr {
-				border-bottom-color: rgba(255, 255, 255, 0.25);
-			}
-
 			.wrapper.style3 .box {
 				border-color: rgba(255, 255, 255, 0.25);
 			}
@@ -1172,10 +1161,6 @@
 				border-color: rgba(255, 255, 255, 0.25);
 			}
 
-			.wrapper.style4 hr {
-				border-bottom-color: rgba(255, 255, 255, 0.25);
-			}
-
 			.wrapper.style4 .box {
 				border-color: rgba(255, 255, 255, 0.25);
 			}
@@ -1427,10 +1412,6 @@
 			.wrapper.style5 code {
 				background: rgba(255, 255, 255, 0.075);
 				border-color: rgba(255, 255, 255, 0.25);
-			}
-
-			.wrapper.style5 hr {
-				border-bottom-color: rgba(255, 255, 255, 0.25);
 			}
 
 			.wrapper.style5 .box {
