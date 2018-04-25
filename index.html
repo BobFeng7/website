@@ -48,7 +48,6 @@
 				<li><a href="#links">Resume</a></li>
 				<!-- <li><a href="#white">Organizations</a></li> -->
 				<li><a href="#quotes">Quotes</a></li>
-				<!-- <li><a href="#steps">Steps</a></li> -->
 				<li><a href="#interests">Interest</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
@@ -64,10 +63,6 @@
 				<div class="hvr-super-grow centered"><p id="mood" class="mainquote">"We are the universe's way of self-introspection."</p></div>
 					                         
 			</div>
-			<!-- <video id="myVideo" autoplay loop>
-				<source src="assets/images/Nebula.ogv" type="video/ogv">
-				<source src="assets/images/Nebula.webm" type="video/webm">
-			</video> -->
 		</div>
 
 	<! ========== ABOUT ME ===========================================>    
@@ -258,49 +253,49 @@
 		</div><!-- /row -->
 
     	<div class="row" style="margin-bottom:5%;">
-    		<div class="col-lg-4 centered si hvr-outline-in hvr-grow">
+    		<div class="col-lg-4 centered si hvr-outline-i hvr-grow">
     			<i class="fa fa-code"></i>
     			<h4>CS160: UI & UX</h4>
     			<p>Poject class that bootcamps you through web programming, with the final project to create a working chrome extension with HTML, CSS, JS, and JQuery.</p>
     		</div>
-    		<div class="col-lg-4 centered si hvr-outline-in hvr-grow">
+    		<div class="col-lg-4 centered si hvr-outline-i hvr-grow">
     			<i class="fa fa-lock"></i>
     			<h4>CS161: Cryptography & Security</h4>
     			<p>Covers the suite of modern security paradigms and encryption/signing methods to perfect confidentiality, integrity, and authenticity.</p>
     		</div>
-    		<div class="col-lg-4 centered si hvr-outline-in hvr-grow">
+    		<div class="col-lg-4 centered si hvr-outline-i hvr-grow">
     			<i class="fa fa-terminal"></i>
     			<h4>CS162: Operating Systems</h4>
     			<p>Work in teams to implement core features of operating systems including semaphore synchonization, exec and wait syscalls, and inodes to handle files</p>
     		</div>    
 
-    		<div class="col-lg-4 centered si hvr-outline-in hvr-grow">
+    		<div class="col-lg-4 centered si hvr-outline-i hvr-grow">
     			<i class="fa fa-instagram"></i>
     			<h4>CS184: Graphics & Computer Vision</h4>
     			<p>Using free public graphics frameworks in C++ and other sources like OpenGL, the class worked us through rasterization, ray-tracing, and cloth simulations.</p>
     		</div>
-    		<div class="col-lg-4 centered si hvr-outline-in hvr-grow">
+    		<div class="col-lg-4 centered si hvr-outline-i hvr-grow">
     			<i class="fa fa-cog"></i>
     			<h4>CS186: Databases</h4>
-    			<p>A bootcamp course primarily taught using SQL and Java that highlights the complexities of the ACID properties of a database.</p>
+    			<p>A bootcamp course on DBMS taught primarily with SQL and Java that highlights the complexities of the ACID properties of a database.</p>
     		</div>
-    		<div class="col-lg-4 centered si hvr-outline-in hvr-grow">
+    		<div class="col-lg-4 centered si hvr-outline-i hvr-grow">
     			<i class="fa fa-eye"></i>
     			<h4>CS188: AI & Machine Learning</h4>
-    			<p>Introductory course into search algorithms, Q-learning, value iteration, and probabilistic networks using Bayes' Theorems.</p>
+    			<p>Introductory course into designing AI agents using search algorithms, Q-learning, value iteration, and probabilistic networks using Bayes' Theorems.</p>
     		</div>   
 
-    		<div class="col-lg-4 centered si hvr-outline-in hvr-grow">
+    		<div class="col-lg-4 centered si hvr-outline-i hvr-grow">
     			<i class="fa fa-phone"></i>
     			<h4>CS168: Networking</h4>
     			<p>Goes in depth into all the common internet protocols like TCP, IP, and TSL and the inspirations and complex histories for their design.</p>
     		</div>
-    		<div class="col-lg-4 centered si hvr-outline-in hvr-grow">
+    		<div class="col-lg-4 centered si hvr-outline-i hvr-grow">
     			<i class="fa fa-pencil-square-o"></i>
     			<h4>CS70/170: Discrete Maths & Algorithms</h4>
     			<p>A set of classes that covers algorithms from dynamic programming, linear programming, and NP-complete problems to reductions and continuous probability. </p>
     		</div>    
-    		<div class="col-lg-4 centered si hvr-outline-in hvr-grow">
+    		<div class="col-lg-4 centered si hvr-outline-i hvr-grow">
     			<i class="fa fa-wrench"></i>
     			<h4>CS61A/61B/61C: Introductory CS Classes</h4>
     			<p>Suite of introductory courses that covers all topics, some of which include data structures, frames, machine code, algorithms, and more. </p>
@@ -469,15 +464,14 @@
 					<i class="fa fa-envelope fa-fw"></i> Email: bjfeng@berkeley.edu<br>
 				</div>
 
-				<div>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a funny note:</div>
+				<div style="margin-bottom:10px;">Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a funny note:</div>
 
-				<form id="contactform" action="//formspree.io/bjfeng@berkeley.edu" method="POST">
-				    <input type="text" placeholder="Name" required name="Name" style="margin-top:10px;">
-				    <input type="text" placeholder="Email" required name="Email">
+				<form id="contactform" name="myemailform" action="form-to-email.php" method="post">
+				    <input type="text" placeholder="Name" name="Name">
+				    <input type="text" placeholder="Email" name="Email">
 				    <!-- <input type="text" placeholder="Message" required name="Message" > -->
-				    <textarea type="text" placeholder="Message" required name="Message" rows="7"></textarea>
-				    <button id="send" type="submit" class="btn btn-cta btn-lg sendmessage" target="_blank">
-				  	Send Message</button>
+				    <textarea type="text" placeholder="Message" name="Message" rows="7"></textarea>
+				    <input id="send" type="submit" name="Send Form" class="btn btn-cta btn-lg sendmessage" ></input>
 				</form>
 			</div>
 		</div>
