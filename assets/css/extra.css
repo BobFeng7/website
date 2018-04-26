@@ -24,7 +24,7 @@
 /*edits the coding languages*/
 .codinglanguages {
 	line-height:50px;
-	font-size:16px;
+	font-size:17px;
 	color:white;
 	margin-bottom:15px;
 }
@@ -33,14 +33,10 @@
 		margin-top:-20px;
 	}
 
-	.languageborder {
+	.language {
 		padding: 3px;
+		border:none;
 	}
-
-/*Year, major, institution element*/
-.title {
-	font-size: 1.2rem;
-}
 
 /*links to spotify, linkedin, resume*/
 .linkselement {
