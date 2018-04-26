@@ -70,12 +70,15 @@
 }
 
 /*style for contact form*/
-.sendmessage {
-	margin-bottom:10px; 
-	margin-top:15px;
-	border-color: grey;
-	color: grey;
+#contact {
+	margin-bottom:100px;
 }
+	.sendmessage {
+		margin-bottom:10px; 
+		margin-top:15px;
+		border-color: lightgrey;
+		color: lightgrey;
+	}
 
 /*screen size*/
 @media screen and (max-width: 400px) {
