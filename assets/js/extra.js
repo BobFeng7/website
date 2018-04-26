@@ -7,12 +7,12 @@ $( document ).ready(function() {
 
 
 
-  $(".codinglanguages").mouseover(function() {
-    $(".hiddenproficiency").slideDown("slow");
+  $(".language").mouseover(function() {
+    $(".hiddenlanguage").slideDown("slow");
   });
 
-  $(".codinglanguages").mouseout(function() {
-    $(".hiddenproficiency").slideUp("slow");
+  $(".language").mouseout(function() {
+    $(".hiddenlanguage").slideUp("slow");
   });
 
 
