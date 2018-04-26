@@ -38,6 +38,16 @@
 		border:none;
 	}
 
+	.C {
+		margin-left:-15px; 
+		margin-right:-15px;
+	}
+
+	.javascript {
+		margin-left:15px; 
+		margin-right:40px;
+	}	
+
 /*links to spotify, linkedin, resume*/
 .linkselement {
 	margin-bottom:5%;
@@ -116,6 +126,11 @@
 		display: block;
 	    margin-left: auto;
 	    margin-right: auto;
+	}
+
+	.javascript {
+		margin-left:0px;
+		margin-right:0px;
 	}
 }
 
