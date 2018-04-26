@@ -22,10 +22,10 @@ $( document ).ready(function() {
 
 
 
-  var quotes = ["'Time is a story in reverse.'",
-                "'You aren't stuck in traffic, you are the traffic.'",
-                "'The universe is grand, but life is grander.'",
-                "'We are the universe's way of self-introspection.'"];
+  var quotes = ["'Time is a story in reverse'",
+                "'You aren't stuck in traffic, you are the traffic'",
+                "'The universe is grand, but life is grander'",
+                "'We are the universe's way of self-introspection'"];
   var mood = $('#mood');
   var index = 0;
   
