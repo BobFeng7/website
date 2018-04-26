@@ -28,7 +28,7 @@
 	color:white;
 	margin-bottom:15px;
 }
-	.language {
+	.hiddenlanguage {
 		margin-left:10px;
 		margin-right:10px;
 		padding-right:0px;
@@ -49,8 +49,8 @@
 .message {
 	text-align:center; 
 	position:relative; 
-	width:50%; 
-	left:25%; 
+	width:80%; 
+	left:10%; 
 	color:black; 
 	margin-top:20px
 }
@@ -60,15 +60,18 @@
 	outline: none;
 }
 
+/*about me image*/
 .Bobimg {
 	width:435px;
 }
 
+/*image size for projects*/
 .projectimage {
 	width:350px;
 	height:240px;
 }
 
+/*style for contact form*/
 .sendmessage {
 	margin-bottom:10px; 
 	margin-top:15px;
@@ -85,7 +88,8 @@
 }
 
 @media screen and (max-width: 736px) {
-	.message {
+	/*alligns the contact box with smaller screen sies*/
+	.message { 
 		width:auto; 
 		left:auto; 
 	}
@@ -109,8 +113,6 @@
 	hr {
 		width:50%;
 		display: block;
-	    /*margin-top: 0.5em;*/
-	    /*margin-bottom: 0.5em;*/
 	    margin-left: auto;
 	    margin-right: auto;
 	}
