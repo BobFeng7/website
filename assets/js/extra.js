@@ -15,6 +15,11 @@ $( document ).ready(function() {
     $(".hiddenlanguage").slideUp("slow");
   });
 
+  $("#funnybutton").click(function() {
+    $("body").fadeOut();
+    $("#funny").fadeIn();
+  })
+
 
 
   var quotes = ["'Time is a story in reverse.'",
