@@ -30,6 +30,11 @@
 }
 	.hiddenlanguage {
 		display:none;
+		margin-top:-20px;
+	}
+
+	.languageborder {
+		padding: 3px;
 	}
 
 /*Year, major, institution element*/
