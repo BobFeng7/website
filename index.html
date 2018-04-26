@@ -508,6 +508,15 @@
 	}
 	</script>
 
+	<script language="JavaScript">
+		var frmvalidator  = new Validator("contactform");
+		frmvalidator.addValidation("name","req","Please provide your name");
+		frmvalidator.addValidation("email","req","Please provide your email");
+		frmvalidator.addValidation("email","email",
+		  "Please enter a valid email address");
+	</script>
+
+
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLa1iZn08HYD3_0IYzY_8B5tbp57sJIUc&callback=myMap"></script>
 
     <script src="assets/js/bootstrap.min.js"></script>
