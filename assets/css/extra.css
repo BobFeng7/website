@@ -652,7 +652,11 @@
 
 			.wrapper {
 				padding: 3rem 0 1rem 0;
-				background-attachment: fixed;
+			}
+
+			.wrapper.style2, .wrapper.style3, .wrapper.style4, #banner {
+				background-attachment: scroll;
+				/*position: fixed*/
 			}
 
 		}
