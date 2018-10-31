@@ -60,7 +60,7 @@
 	width:80%; 
 	left:10%; 
 	color:black; 
-	margin-top:20px
+	margin-bottom:2%;
 }
 
 /*weird blue lines*/
@@ -103,6 +103,7 @@
 	.message { 
 		width:auto; 
 		left:auto; 
+		margin-bottom:5%;
 	}
 }
 
