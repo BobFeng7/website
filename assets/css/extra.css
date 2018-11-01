@@ -295,6 +295,11 @@
 @media screen and (max-width: 1200px) {
 	/*mobile space out the image and the text for the aboutme section more*/
 	.Bob {
+		-webkit-transform: rotate(0deg);
+	    -moz-transform: rotate(0deg);
+	    -o-transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	    transform: rotate(0deg);
 		margin-bottom:75px;
 	}
 
