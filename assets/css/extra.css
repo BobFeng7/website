@@ -244,17 +244,12 @@
 }
 
 .Bob {
-	padding-top:40px;
-    padding-right:0px;
+	/*padding-top:40px;
+    padding-right:0px;*/
 }
 
 /*about me image*/
 .Bobimg {
-	-webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
 	width:450px;
 }
 
@@ -295,7 +290,7 @@
 @media screen and (max-width: 1200px) {
 	/*mobile space out the image and the text for the aboutme section more*/
 	.Bob {
-		margin-bottom:75px;
+		margin-bottom:25px;
 	}
 
 	/*adjust image size for mobile*/
