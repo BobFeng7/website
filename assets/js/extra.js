@@ -3,20 +3,10 @@
 // 	vid.playbackRate = 0.75;
 // }
 
+  
 $( document ).ready(function() {
 
-
-
-  // $(".language").click(function() {
-  //   $(this).siblings(".hiddenlanguage").slideToggle("slow");
-  // });
-
-  // $(".language").mouseout(function() {
-  //   $(this).siblings(".hiddenlanguage").delay(1000).slideUp("slow");
-  // });
-
-
-
+  
 
   // change quotes for title screen
   var quotes = ["'Time is a story in reverse'",
@@ -85,12 +75,6 @@ $( document ).ready(function() {
           }
         }
       });
-
-      // carousel movement
-  $('#quote-carousel').carousel({
-    pause: true,
-    interval: 3000,
-  });
 
 });
 

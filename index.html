@@ -52,13 +52,25 @@
 
     <!-- Banner -->
         <div id="banner" class="wrapper style4" >
-            <div class="inner title">
-                <h1>Bob Feng</h1>
-                <p>Software Engineer</p>
+            <div class="inner title c0" style="">
+                <h1 class=>Bob Feng</h1>
+
+                    <div class="content__container">
+
+                      
+                      <ul class="content__container__list">
+                        <li class="content__container__list__item c1">Software Engineer</li>
+                        <li class="content__container__list__item c2" style="">Longboarder</li>
+                        <li class="content__container__list__item c3" style="">Movie Fanatic</li>
+                        <li class="content__container__list__item c4" style="">SciFi Enthusiast</li>
+                      </ul>
+                    </div>
+
+                <!-- <p>Software Engineer</p>
                 <p>4th Year</p>
                 <p>University of California, Berkeley</p>
                 <div class="hvr-super-grow centered"><p id="mood" class="mainquote">"We are the universe's way of self-introspection."</p></div>
-                                             
+                                        -->      
             </div>
         </div>
 
@@ -68,16 +80,16 @@
             <div class="container">
                 <div class="row mt centered">   
                     <div class="col-lg-4 col-lg-offset-4">
-                        <h3>Hello!</h3>
+                        <h2>About Me</h2>
                         <hr>
                     </div><!-- /col-lg-4 -->
                 </div><!-- /row -->
                 
                 <div class="row mt centered" style="font-size:16px;">
                     <div class="col-lg-1 col-lg-offset-1 Bob" style="">
-                        <div class="hvr-grow-shadow" style="">
-                            <img title="Hi there" class="Bobimg" src="assets/images/Bob.png" alt="" />
-                        </div>
+                        
+                            <img title="Hi there" class="Bobimg" src="assets/images/Bob.jpg" alt="" />
+  
                     </div>
                     <div class="col-lg-6 col-lg-offset-4">
                         <p>Hi! I'm a senior studying computer science at the University of California, Berkeley. I'm a fun-loving and socially oriented person, with a knack for problem solving. Working together in a team is where I function best; I act as the anchor, keeping everyone motivated and making sure everyone is having a good time. Whether in a team or not, I've tackled topics throughout the full stack, from operating systems up to web development and thoroughly enjoyed them all. Right now, my passion is in security, with all its exciting SQL injections and buffer overflow exploits.</p>
@@ -97,7 +109,7 @@
         <div class="inner">
             <div class="row mt centered ">
                 <div class="col-lg-4 col-lg-offset-4">
-                    <h3><a href="Resume.pdf" class="btn btn-cta btn-lg" target="_blank" style="font-size:18px">Résumé</a></h3>
+                    <h2><a href="Resume.pdf" class="btn btn-cta btn-lg" target="_blank" style="font-size:22px">Résumé</a></h2>
                     <hr>
                 </div>
             </div><!-- /row -->
@@ -142,7 +154,7 @@
     <div id="projects" class="container">   
         <div class="row mt centered">
             <div class="col-lg-4 col-lg-offset-4">
-                <h3>Projects</h3>
+                <h2>Projects</h2>
                 <hr>
             </div>
         </div><!-- /row -->
@@ -188,7 +200,7 @@
     <div id="coursework" class="container">
         <div class="row mt centered ">
             <div class="col-lg-4 col-lg-offset-4">
-                <h3>Relevant Coursework</h3>
+                <h2>Relevant Coursework</h2>
                 <hr>
             </div>
         </div><!-- /row -->
@@ -249,7 +261,7 @@
 
             <div class="row mt centered">   
                 <div class="col-lg-4 col-lg-offset-4">
-                    <h3>Things I like:</h3>
+                    <h2>Things I like:</h2>
                     <hr>
                 </div><!-- /col-lg-4 -->
             </div><!-- /row -->
@@ -294,7 +306,7 @@
     <div id="contact" class="container">
         <div class="row mt">
             <div class="col-lg-4 col-lg-offset-4 centered">
-                <h3>Contact</h3>
+                <h2>Contact</h2>
                 <hr>
             </div>
         </div>
@@ -351,11 +363,22 @@
     </script>
 
     <script language="JavaScript">
-        var frmvalidator  = new Validator("contactform");
-        frmvalidator.addValidation("name","req","Please provide your name");
-        frmvalidator.addValidation("email","req","Please provide your email");
-        frmvalidator.addValidation("email","email",
-          "Please enter a valid email address");
+        var pathEls = document.querySelectorAll('path');
+        for (var i = 0; i < pathEls.length; i++) {
+            var pathEl = pathEls[i];
+            var offset = anime.setDashoffset(pathEl);
+            pathEl.setAttribute('stroke-dashoffset', offset);
+            anime({
+              targets: pathEl,
+              strokeDashoffset: [offset, 0],
+              duration: anime.random(1000, 3000),
+              delay: anime.random(0, 2000),
+              loop: true,
+              direction: 'alternate',
+              easing: 'easeInOutSine',
+              autoplay: true
+            });
+        }
     </script>
 
 
